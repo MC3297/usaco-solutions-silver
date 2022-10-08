@@ -50,4 +50,4 @@ public class ComfortableCows {
         pw.close();
     }
 }
-class Cow {int x,y;public Cow(int ax, int ay){x = ax;y = ay;}public String toString() {return x+" "+y;}}
+class Cow {int x,y;public Cow(int ax, int ay){x = ax;y = ay;}@Override public String toString() {return x+" "+y;}}
