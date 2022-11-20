@@ -48,7 +48,6 @@ public class wormsort {
 			ArrayList<Integer> temp = new ArrayList<>(3);
 			temp.add(curr.node); temp.add(curr.parent); temp.add(curr.width);
 			set.add(temp);
-
 			visited[curr.node] = true;
 			for (Item i: adj.get(curr.node)) {
 				if (!visited[i.node]) {
